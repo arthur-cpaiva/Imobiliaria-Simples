@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imobiliária</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <div class="cabecalho-container">
+                <div class="logo"><img src="./imagens/logo.png" alt="logotipo da imobiliária">
+                    <h1> Imobiliária Casa Nova</h1>
+                </div>
+                <nav class="menu-principal">
+                    <ul>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Quem Somos</a></li>
+                        <li><a href="#">Venda</a></li>
+                        <li><a href="#">Locação</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="apresentacao">
+            <h2>Quem Somos</h2>
+            <p>A Casa Nova nasceu com o propósito de transformar sonhos em realidade. Especializada na intermediação de
+                compra, venda e locação de imóveis, nossa missão é conectar pessoas ao lugar ideal para viver, investir
+                ou recomeçar.
+
+                Com um atendimento próximo, transparente e focado nas necessidades de cada cliente, buscamos oferecer
+                segurança em todas as etapas do processo. Entendemos que cada imóvel carrega uma história e cada
+                cliente, um objetivo único.
+
+                Na Casa Nova, você encontra mais do que imóveis: encontra confiança, oportunidades e o início de novos
+                capítulos.</p>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div class="galeria-imoveis">
+            <div class="item-card">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/653575113.jpg?k=547301446dfe375b73fcdf3db50fa99df8317fd72ad2b65787b8a5869b94bd19&o="
+                    alt="casa para alugar">
+
+
+                <div class="item-overlay">
+                    <h3>Casa Para Alugar C/Piscina - Casa para alugar com piscina, perfeita para quem busca conforto e
+                        lazer em um só lugar.
+                        São 2 quartos espaçosos e 2 banheiros bem distribuídos para maior praticidade.
+                        Garagem ampla com capacidade para até 2 carros, garantindo segurança e comodidade.
+                        Ideal para viver momentos incríveis com a família em um ambiente agradável e acolhedor. </h3>
+                    <br>
+                    <br>
+                    <p class="preco">R$2.500,00</p>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <img src="https://www.jorisimoveis.com/uploads/imovel/galeria/big-1fb14a7f89da1ac8dce2985013063030.jpeg"
+                    alt="casa para comprar">
+
+
+                <div class="item-overlay">
+                    <h3>Casa Á Venda - Casa à venda com excelente espaço e conforto para toda a família.
+                        São 3 quartos bem distribuídos e 2 banheiros que garantem praticidade no dia a dia.
+                        Conta com garagem para 1 carro, oferecendo segurança e comodidade.
+                        Uma ótima oportunidade para morar bem em um ambiente acolhedor e funcional. </h3>
+                    <br>
+                    <br>
+                    <p class="preco">R$550.000</p>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <img src="https://www.vanilzaimoveis.com.br/uploads/imovel/galeria/big-fabc862a5d80a75f4548d5e163dd44b7.jpeg"
+                    alt="casa para alugar">
+
+
+                <div class="item-overlay">
+                    <h3>Casa Para Alugar C/Piscina - Casa para alugar com piscina, perfeita para aproveitar momentos de
+                        lazer com conforto.
+                        São 2 quartos aconchegantes e 2 banheiros bem distribuídos para o dia a dia.
+                        Conta com área para churrasqueira, ideal para reunir família e amigos.
+                        Garagem espaçosa para até 3 carros, trazendo mais praticidade e segurança. </h3>
+                    <br>
+                    <br>
+                    <p class="preco">R$4.500,00</p>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <img src="https://planetsmartcity.com.br/wp-content/uploads/2024/02/Casa-Atena-Wide-min-scaled.jpg"
+                    alt="casa para comprar">
+
+
+                <div class="item-overlay">
+                    <h3>Casa à venda com amplo espaço e estrutura completa para toda a família.
+                        São 4 quartos, incluindo 2 suítes, além de 2 banheiros bem distribuídos.
+                        Área para churrasqueira e piscina, perfeitas para momentos de lazer e confraternização.
+                        Garagem para até 3 carros, garantindo praticidade, conforto e segurança no dia a dia.</h3>
+                    <br>
+                    <br>
+                    <p class="preco">R$780.000</p>
+                </div>
+            </div>
+
+            <br>
+            <hr>
+            <br>
+            <div class="contato">
+
+                <h2>Contato</h2>
+
+                <fieldset>
+                    <label for="Nome">Nome:</label>
+                    <input type="text" for="Nome">
+
+                    <br>
+
+                    <label for="Email">E-mail:</label>
+                    <input type="email" for="E-mail">
+
+                    <br>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" for="telefone">
+
+                    <br>
+                    <label for="imovel">Qual o seu interesse:</label>
+                    <select name="imovel" id="imovel">
+                        <option value="locacao">Locação</option>
+                        <option value="Venda">Venda</option>
+                    </select>
+
+                    <br>
+
+                    <div class="mensagem">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea name="mensagem" id="mensagem"></textarea>
+                    </div>
+                </fieldset>
+
+                <button type="submit">Enviar</button>
+                <button type="submit">Limpar</button>
+            </div>
+
+
+        </div>
+
+
+    </main>
+    
+    <footer class="rodape"> &copy;Todos os direitos reservados.</footer>
+</body>
+
+</html>

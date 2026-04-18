@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+    background-color: #272829;
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.2);
+}
+
+.cabecalho-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 90%;
+    margin: 0 30px;
+    gap: 200px;
+}
+
+.logo img {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu-principal ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.menu-principal a {
+    color: aquamarine;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 35px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.menu-principal li a:hover {
+    background-color: crimson;
+    transform: scale(1.1);
+}
+
+
+main {
+    background-color: #1e1d35;
+    max-width: 1800px;
+    margin: 50px auto;
+    padding: 0px 35px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white;
+}
+
+
+.apresentacao h2 {
+    padding: 15px 0;
+    text-align: center;
+    font-size: 2.8rem;
+}
+
+.apresentacao p {
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    font-size: 1.6rem;
+}
+
+.galeria-imoveis {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px 50px auto auto;
+}
+
+.item-card {
+    position: relative;
+    display: flex;
+    gap: 100px;
+    width: 100%;
+    max-width: 1500px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item-card img {
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.item-overlay {
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.6;
+    background-color: #272829;
+    border-radius: 20px;
+    padding: 15px;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+
+.item-overlay p {
+    font-size: 1.3rem;
+    font-weight: 500;
+
+}
+
+.item-card:hover {
+    transform: translateX(-10px);
+    /**mexe na altura da imagem**/
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+
+}
+
+.item-card:hover .item-overlay {
+    opacity: 1;
+}
+
+.contato h2 {
+    text-align: center;
+    font-size: 2.8rem;
+    line-height: 2.0
+}
+
+fieldset {
+    display: flexbox;
+    justify-content: center;
+    line-height: 2.5;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 0px 0px 15px 0px;
+    overflow: hidden;
+    margin: 10px;
+    padding: 15px;
+}
+
+select {
+    font-size: 1.1rem;
+    width: 20%;
+}
+
+label {
+    font-size: 1.1rem;
+    font-weight: 500;
+    justify-content: center;
+    width: 20%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 15px;
+    margin: 20px auto;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+
+button {
+    width: 20%;
+    height: 25px;
+    padding: 0px;
+    margin-bottom: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+}
+
+.rodape{
+    background-color: #272829;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    box-shadow: 0 2px solid rgba(0, 0, 0, 0.1);
+}
