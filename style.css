@@ -9,7 +9,7 @@ body {
 }
 
 .cabecalho {
-    background-color: #272829;
+    background-color: #440a1c;
     color: white;
     padding: 10px 0;
     box-shadow: 0 2px 5px rgb(0, 0, 0, 0.2);
@@ -58,14 +58,15 @@ body {
 
 
 main {
-    background-color: #1e1d35;
+    background-color: #def0da;
     max-width: 1800px;
     margin: 70px;
     padding: 0px 35px;
     border-radius: 12px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
-    color: white;
+    color: rgb(10, 0, 0);
+    font-weight: bold;
 }
 
 .apresentacao {
@@ -132,6 +133,7 @@ main {
     opacity: 0;
     transition: opacity 0.8s ease;
     text-align: center;
+    color: white;
 }
 
 .item-overlay p {
